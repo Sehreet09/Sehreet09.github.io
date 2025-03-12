@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Reet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Hi, I'm Sehreet!</h1>
+        <p>Future pediatrician, science lover.</p>
+        <button onclick="changeBg()">Change Background</button>
+    </div>
+
+    <script>
+        function changeBg() {
+            document.body.style.background = document.body.style.background === 'lavender' ? '#f4f4f4' : 'lavender';
+        }
+    </script>
+</body>
+</html>
